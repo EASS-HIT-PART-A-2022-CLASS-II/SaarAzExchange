@@ -1,9 +1,4 @@
-import time
-from typing import Optional
 from fastapi import FastAPI
-from pydantic import BaseModel
-import requests
-import json
 from pydantic import BaseModel
 
 app = FastAPI()
