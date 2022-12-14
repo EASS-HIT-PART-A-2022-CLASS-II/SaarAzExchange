@@ -20,8 +20,6 @@ def index():
     return {'key': 'value'}
 
 
-
-
 @app.post('/currency')
 def create_currency(currency: Currency):  # create currency object
     db.append(currency.dict())  # convert it to dict
@@ -33,7 +31,7 @@ def get_currency_by_id(currency_id: int):
     return db[currency_id - 1]
 
 
-@app.get ('/currency/')
+@app.get('/currency/')
 def get_all_currency():
     return db
 
