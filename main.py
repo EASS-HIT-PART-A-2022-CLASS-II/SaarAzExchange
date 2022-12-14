@@ -20,6 +20,7 @@ def index():
     return {'key': 'value'}
 
 
+
 @app.post('/currency')
 def create_currency(currency: Currency):  # create currency object
     db.append(currency.dict())  # convert it to dict
