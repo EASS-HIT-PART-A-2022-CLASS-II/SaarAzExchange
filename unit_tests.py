@@ -26,14 +26,14 @@ def test_get_all_currency():
 
 
 def test_get_currency_by_id():
-    response = client.get('/currency/{currency_id}', json=data)
+    response = client.get('/currency/1')
     assert response.status_code == 200
     assert response.json() == data
     print(response.json())
 
 
 def test_delete_currency():
-    response = client.delete('/currency/{currency_id}')
+    response = client.delete('1')
     assert response.status_code == 200
     assert response.json() == {
         "name": "Test",
