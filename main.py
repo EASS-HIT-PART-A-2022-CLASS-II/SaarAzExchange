@@ -51,3 +51,4 @@ def delete_currency(currency_id: str):
                 db.data.pop(index)
                 return {"deleted": "successfully"}
     return {"error": "no data"}
+

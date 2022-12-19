@@ -39,3 +39,4 @@ def test_delete_currency():
     response = client.delete('/currency/$')
     assert response.status_code == 200
     assert response.json() == {"deleted": "successfully"}
+
