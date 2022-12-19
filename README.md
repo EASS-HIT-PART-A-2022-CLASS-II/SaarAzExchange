@@ -1,5 +1,5 @@
 # Exchange Rates API
-aplication for currency exchange rates , choose your 'pivot' currency , and check her value in front of other currencys. 
+aplication for currency exchange rates , choose your 'pivot' currency , and check his value in comparison to other currencys. 
 # What in side
 service 1 - backend using FastApi  
 service 2 - frontend using "TBD"  
