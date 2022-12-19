@@ -19,7 +19,7 @@ docker build -t fastapi .
 ``
 docker run -d -p 8080:8080 fastapi
 ``
-##### Testing:
+##### run all test using pytest:
 ``
 pytest unit_tests.py
 ``
