@@ -6,12 +6,13 @@ service 2 - frontend using "TBD"
 Database - JSON file with the currencys / API with currencys (TBD)  
 
 # Design 
-<img width="817" alt="Desgin" src="https://user-images.githubusercontent.com/48453080/208406747-dd9987bf-6713-46ec-aed6-2cfc4f051df5.png">
+<img width="790" alt="Design" src="https://user-images.githubusercontent.com/48453080/208944058-387182e5-88e8-4c41-9916-78a9380b42e5.png">
+
 
 
 # How to run:
 
-##### Docker Build:
+##### Docker Build: (make sure you are in the app directory)
 ``
 docker build -t fastapi .
 ``
@@ -22,6 +23,10 @@ docker run -d -p 8080:8080 fastapi
 ##### run all test using pytest:
 ``
 pytest unit_tests.py
+``
+##### run Frontend (Streamlit) service: (make sure you are in the frontend directory)
+``
+streamlit run ui.py
 ``
 
 
