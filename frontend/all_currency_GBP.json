@@ -1,0 +1,16 @@
+{
+    "result": "success",
+    "documentation": "https://www.exchangerate-api.com/docs",
+    "terms_of_use": "https://www.exchangerate-api.com/terms",
+    "time_last_update_unix": 1671580802,
+    "time_last_update_utc": "Wed, 21 Dec 2022",
+    "time_next_update_unix": 1671667202,
+    "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
+    "base_code": "GBP",
+    "conversion_rates": {
+        "GBP": 1,
+        "EUR": 1.1449,
+        "ILS": 4.2156,
+        "USD": 1.2161
+    }
+}
