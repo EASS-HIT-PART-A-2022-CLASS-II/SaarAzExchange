@@ -1,2 +1,13 @@
-RUN pip install watchdog
-RUN pip install streamlit
+FROM python:3.9
+
+RUN mkdir /frontend
+
+COPY requirements.txt /frontend
+
+WORKDIR /frontend
+
+RUN pip install -r requirements.txt
+
+COPY . /frontend
+
+EXPOSE 8501
