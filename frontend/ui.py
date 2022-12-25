@@ -26,10 +26,8 @@ symbols_price_unit = st.sidebar.selectbox('Select target currency to convert to 
 
 @st.cache
 def load_data():
-    #stam = requests.get(f"{backend}currency/").json()
-    #print(stam)
-    data = json.load(open('all_currency_%s.json' % base_price_unit, "r"))
-    base_currency = pd.Series(data['base_code'], name='FROM')
+    data =  requests.get(f"{backend}currency/{base_price_unit}").json()
+    base_currency = pd.Series(base_price_unit, name='FROM')
     to_currency = pd.Series(data['conversion_rates'], name='TO')
     specific_rate =pd.Series(to_currency[symbols_price_unit], name='RATE')
     f_specific_rate = float (specific_rate)

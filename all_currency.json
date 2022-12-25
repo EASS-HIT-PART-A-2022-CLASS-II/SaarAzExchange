@@ -1,0 +1,63 @@
+ {
+    "USD": {
+      "result": "success",
+      "documentation": "https://www.exchangerate-api.com/docs",
+      "terms_of_use": "https://www.exchangerate-api.com/terms",
+      "time_last_update_unix": 1671580802,
+      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_next_update_unix": 1671667202,
+      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
+      "conversion_rates": {
+        "USD": 1,
+        "EUR": 0.9415,
+        "GBP": 0.8223,
+        "ILS": 3.4675
+      }
+    },
+    "ILS": {
+      "result": "success",
+      "documentation": "https://www.exchangerate-api.com/docs",
+      "terms_of_use": "https://www.exchangerate-api.com/terms",
+      "time_last_update_unix": 1671580802,
+      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_next_update_unix": 1671667202,
+      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
+      "conversion_rates": {
+        "ILS": 1,
+        "EUR": 0.2717,
+        "GBP": 0.2371,
+        "USD": 0.2884
+      }
+    },
+    "EUR": {
+      "result": "success",
+      "documentation": "https://www.exchangerate-api.com/docs",
+      "terms_of_use": "https://www.exchangerate-api.com/terms",
+      "time_last_update_unix": 1671580802,
+      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_next_update_unix": 1671667202,
+      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
+      "conversion_rates": {
+        "EUR": 1,
+        "GBP": 0.8734,
+        "ILS": 3.6811,
+        "USD": 1.0621
+      }
+    },
+    "GBP": {
+      "result": "success",
+      "documentation": "https://www.exchangerate-api.com/docs",
+      "terms_of_use": "https://www.exchangerate-api.com/terms",
+      "time_last_update_unix": 1671580802,
+      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_next_update_unix": 1671667202,
+      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
+      "base_code": "GBP",
+      "conversion_rates": {
+        "GBP": 1,
+        "EUR": 1.1449,
+        "ILS": 4.2156,
+        "USD": 1.2161
+      }
+    }
+  }

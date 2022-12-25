@@ -1,6 +1,7 @@
 from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel
+import json
 
 app = FastAPI(title="Exchange Rate API")
 
@@ -15,6 +16,7 @@ class DB(BaseModel):
 
 
 db = DB(data=[])
+data = json.load(open('all_currency.json', "r"))
 
 
 @app.get("/")
@@ -30,16 +32,15 @@ def create_currency(currency: Currency):  # create currency object
 
 @app.get('/currency/{currency_id}')
 def get_currency_by_id(currency_id: str):
-    for key in db.data:
-        for k, v in key:
-            if k == "name" and v == currency_id:
-                return key.dict()
-    return {"error": "no data"}
+    try:
+        return data[currency_id]
+    except:
+        return {"error": "no data"}
 
 
 @app.get('/currency/')
 def get_all_currency():
-    return db.dict()
+    return data
 
 
 @app.delete('/currency/{currency_id}')
@@ -50,4 +51,3 @@ def delete_currency(currency_id: str):
                 db.data.pop(index)
                 return {"deleted": "successfully"}
     return {"error": "no data"}
-
