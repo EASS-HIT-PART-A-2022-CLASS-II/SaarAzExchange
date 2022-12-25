@@ -12,11 +12,10 @@ st.title('Saar Currency Converter App')
 st.markdown("""Check how much your MONEY worth!""")
 backend = "http://backend:8080/"
 
-# ---------------------------------#
 # Sidebar + Main panel
 st.sidebar.header('Input Options')
 
-## Sidebar - Currency price unit
+
 currency_list = ['USD', 'ILS', 'GBP', 'EUR']
 
 value = st.sidebar.number_input('Insert amount of currency')
@@ -27,8 +26,8 @@ symbols_price_unit = st.sidebar.selectbox('Select target currency to convert to 
 
 @st.cache
 def load_data():
-    stam = requests.get(f"{backend}currency/").json()
-    print(stam)
+    #stam = requests.get(f"{backend}currency/").json()
+    #print(stam)
     data = json.load(open('all_currency_%s.json' % base_price_unit, "r"))
     base_currency = pd.Series(data['base_code'], name='FROM')
     to_currency = pd.Series(data['conversion_rates'], name='TO')
@@ -48,8 +47,3 @@ df = load_data()
 st.header('Currency conversion')
 
 st.write(df)
-
-# st.write( df.transpose() )
-
-
-# ---------------------------------#
