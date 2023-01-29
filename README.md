@@ -2,8 +2,9 @@
 aplication for currency exchange rates , choose your 'pivot' currency , and check his value in comparison to other currencys. 
 # What in side
 service 1 - backend using FastApi  
-service 2 - frontend using "TBD"  
-Database - JSON file with the currencys / API with currencys (TBD)  
+service 2 - frontend using Streamlit
+service 3 - Analytics cache using Redis
+Database - JSON file with the currencys  
 
 # Design 
 <img width="940" alt="Design" src="https://user-images.githubusercontent.com/48453080/215313043-ffceb3ee-60ff-4ebb-ace2-39c8c2d83216.png">
