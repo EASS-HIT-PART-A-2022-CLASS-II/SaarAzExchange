@@ -34,6 +34,6 @@ DOCKER_BUILDKIT=0 docker-compose up -d --build
 ``
 ##### start reddis:
 ``
-brew services start redis
+redis-server --appendonly yes
 ``
 
