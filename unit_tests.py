@@ -1,6 +1,6 @@
+import json
 from fastapi.testclient import TestClient
 from pydantic import BaseModel
-
 from main import app
 
 client = TestClient(app)
@@ -25,8 +25,10 @@ def test_get_all_currency():
     # assert response.status_code == 200
     global data
     response = client.get('/currency/')
+    print(response)
     assert response.status_code == 200
     assert data in response.json()["data"]
+
 
 
 def test_get_currency_by_id():

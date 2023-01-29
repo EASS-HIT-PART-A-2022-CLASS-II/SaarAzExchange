@@ -17,6 +17,14 @@ services:
     networks:
       - deploy_network
     container_name: streamlit
+  reddis:
+    build: ./frontend/
+    command: redis server
+    ports:
+      - 6379:6379
+    networks:
+      - deploy_network
+    container_name: reddis
 networks:
   deploy_network:
     driver: bridge
