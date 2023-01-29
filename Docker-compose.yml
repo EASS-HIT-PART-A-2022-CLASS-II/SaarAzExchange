@@ -17,14 +17,13 @@ services:
     networks:
       - deploy_network
     container_name: streamlit
-  reddis:
-    build: ./frontend/
-    command: redis server
+  redis:
+    image: redis:latest
     ports:
-      - 6379:6379
+      - "6379:6379"
     networks:
       - deploy_network
-    container_name: reddis
+    command: redis-server --appendonly yes
 networks:
   deploy_network:
     driver: bridge
