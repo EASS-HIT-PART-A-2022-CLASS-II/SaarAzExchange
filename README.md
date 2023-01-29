@@ -6,8 +6,7 @@ service 2 - frontend using "TBD"
 Database - JSON file with the currencys / API with currencys (TBD)  
 
 # Design 
-<img width="947" alt="Design" src="https://user-images.githubusercontent.com/48453080/215311902-f8af7abb-33a6-4f43-b0dc-d40877dfb4dd.png">
-
+<img width="940" alt="Design" src="https://user-images.githubusercontent.com/48453080/215313043-ffceb3ee-60ff-4ebb-ace2-39c8c2d83216.png">
 
 
 # How to run:
