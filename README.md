@@ -2,8 +2,7 @@
 aplication for currency exchange rates , choose your 'pivot' currency , and check his value in comparison to other currencys. 
 # What in side
 service 1 - backend using FastApi  
-service 2 - frontend using Streamlit
-
+service 2 - frontend using Streamlit 
 service 3 - Analytics cache using Redis
 Database - JSON file with the currencys  
 
