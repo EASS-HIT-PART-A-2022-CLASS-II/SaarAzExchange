@@ -6,7 +6,7 @@ service 2 - frontend using "TBD"
 Database - JSON file with the currencys / API with currencys (TBD)  
 
 # Design 
-<img width="790" alt="Design" src="https://user-images.githubusercontent.com/48453080/208944058-387182e5-88e8-4c41-9916-78a9380b42e5.png">
+<img width="947" alt="Design" src="https://user-images.githubusercontent.com/48453080/215311902-f8af7abb-33a6-4f43-b0dc-d40877dfb4dd.png">
 
 
 
@@ -28,10 +28,12 @@ pytest unit_tests.py
 ``
 streamlit run ui.py
 ``
-
 ##### Build Docker Compose with Backend (8080 fastapi) + Frontend (8051 streamlit)
 ``
 DOCKER_BUILDKIT=0 docker-compose up -d --build
 ``
-
+##### start reddis:
+``
+brew services start redis
+``
 
