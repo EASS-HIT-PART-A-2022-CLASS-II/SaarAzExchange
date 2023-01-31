@@ -31,7 +31,7 @@ pytest unit_tests.py
 ``
 streamlit run ui.py
 ``
-##### Build Docker Compose with Backend (8080 fastapi) + Frontend (8051 streamlit) + Redis (3679)
+##### Build Docker Compose with Backend (8080 fastapi) + Frontend (8051 streamlit) + Redis (6379)
 ``
 DOCKER_BUILDKIT=0 docker-compose up -d --build
 ``
