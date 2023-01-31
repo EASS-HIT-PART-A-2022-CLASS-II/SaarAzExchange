@@ -40,3 +40,7 @@ DOCKER_BUILDKIT=0 docker-compose up -d --build
 redis-server --appendonly yes
 ``
 
+
+VIDEO - CODE + APP
+https://youtu.be/Va604GFmymE
+
