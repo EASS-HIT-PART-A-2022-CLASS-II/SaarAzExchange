@@ -48,7 +48,6 @@ def get_currency_by_id(currency_id: str):
 
 @app.get('/currency/')
 def get_all_currency():
-    cache = rd.get(get_all_currency)
     return data
 
 
