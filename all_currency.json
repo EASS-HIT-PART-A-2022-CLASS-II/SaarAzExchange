@@ -4,14 +4,13 @@
       "documentation": "https://www.exchangerate-api.com/docs",
       "terms_of_use": "https://www.exchangerate-api.com/terms",
       "time_last_update_unix": 1671580802,
-      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_last_update_utc": "Tue, 31 Jan 2023",
       "time_next_update_unix": 1671667202,
-      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
       "conversion_rates": {
         "USD": 1,
-        "EUR": 0.9415,
-        "GBP": 0.8223,
-        "ILS": 3.4675
+        "EUR": 0.9203,
+        "GBP": 0.8088,
+        "ILS": 3.4618
       }
     },
     "ILS": {
@@ -19,14 +18,13 @@
       "documentation": "https://www.exchangerate-api.com/docs",
       "terms_of_use": "https://www.exchangerate-api.com/terms",
       "time_last_update_unix": 1671580802,
-      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_last_update_utc": "Tue, 31 Jan 2023",
       "time_next_update_unix": 1671667202,
-      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
       "conversion_rates": {
         "ILS": 1,
-        "EUR": 0.2717,
-        "GBP": 0.2371,
-        "USD": 0.2884
+        "EUR": 0.2657,
+        "GBP": 0.2335,
+        "USD": 0.2890
       }
     },
     "EUR": {
@@ -34,14 +32,13 @@
       "documentation": "https://www.exchangerate-api.com/docs",
       "terms_of_use": "https://www.exchangerate-api.com/terms",
       "time_last_update_unix": 1671580802,
-      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_last_update_utc": "Tue, 31 Jan 2023",
       "time_next_update_unix": 1671667202,
-      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
       "conversion_rates": {
         "EUR": 1,
-        "GBP": 0.8734,
-        "ILS": 3.6811,
-        "USD": 1.0621
+        "GBP": 0.8787,
+        "ILS": 3.7644,
+        "USD": 1.0866
       }
     },
     "GBP": {
@@ -49,15 +46,14 @@
       "documentation": "https://www.exchangerate-api.com/docs",
       "terms_of_use": "https://www.exchangerate-api.com/terms",
       "time_last_update_unix": 1671580802,
-      "time_last_update_utc": "Wed, 21 Dec 2022",
+      "time_last_update_utc": "Tue, 31 Jan 2023",
       "time_next_update_unix": 1671667202,
-      "time_next_update_utc": "Thu, 22 Dec 2022 00:00:02 +0000",
       "base_code": "GBP",
       "conversion_rates": {
         "GBP": 1,
-        "EUR": 1.1449,
-        "ILS": 4.2156,
-        "USD": 1.2161
+        "EUR": 1.1380,
+        "ILS": 4.2833,
+        "USD": 1.2367
       }
     }
   }

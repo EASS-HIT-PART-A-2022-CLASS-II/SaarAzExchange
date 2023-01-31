@@ -3,8 +3,6 @@ from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel
 import redis
-from redis.commands.json.path import Path
-from datetime import datetime
 
 app = FastAPI(title="Exchange Rate API")
 r = redis.Redis(host="redis", port=6379, db=0)
